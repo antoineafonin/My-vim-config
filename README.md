@@ -1,6 +1,33 @@
 # My-vim-config
 My own simple vim config
 
+## Setup Instructions
+### Step 1: Install Vim/Neovim
+
+    Ensure you have Vim or Neovim installed on your system.
+    For Neovim, the configuration should be placed in ~/.config/nvim/init.vim.
+    For Vim, the configuration should be placed in ~/.vimrc.
+
+### Step 2: Install Vim-Plug
+
+    Install the plugin manager Vim-Plug by running the following command:
+
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+    For Neovim, replace ~/.vim with ~/.config/nvim.
+
+### Step 3: Copy the Configuration
+
+    Copy the provided configuration into the appropriate file:
+        Vim: ~/.vimrc
+        Neovim: ~/.config/nvim/init.vim
+
+### Step 4: Install Plugins
+
+    Open Vim/Neovim.
+    Run :PlugInstall to install all the plugins listed in the configuration.
+
 ## Plugin Overview
 ### Essential Plugins
 
